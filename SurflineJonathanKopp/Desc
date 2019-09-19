@@ -1,0 +1,10 @@
+Mobile Engineer – Project Brief
+1. Create a universal application (phone & tablet) that pulls a list of items from a public API (i.e., movies, images, book titles, or whatever interests you personally)
+2. Display a collection of high level info (i.e., title, date, etc.)
+3. If an item is selected, present a detailed view of that item (i.e., preview image, description, etc.)
+Tech Requirements:
+• iOS:useSwift5.0w/abasetargetofiOS12.x
+• Android:useAndroid9.xasthebasetarget
+Take Note:
+With this project we’re primarily concerned about the clean, clear, and maintainable implementation. Bonus points for interesting visual design and animations, but not at expense of good architecture.
+
