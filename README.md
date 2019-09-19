@@ -16,6 +16,6 @@ Get information about:
  3. iOS 12.2.
  4. Internet.
  ## API
- This project uses the [SpitCast API](http://www.spitcast.com)!
+ This project uses the [SpitCast API](http://www.spitcast.com/api/docs/)!
  
  
