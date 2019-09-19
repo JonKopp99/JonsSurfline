@@ -61,7 +61,7 @@ class SpotsVC: UIViewController
     
 }
 
-extension SpotsVC: UITableViewDelegate, UITableViewDataSource{
+extension SpotsVC: UITableViewDelegate, UITableViewDataSource {
     
     //MARK: TableView Setup
     func tableLayout() {
@@ -70,6 +70,7 @@ extension SpotsVC: UITableViewDelegate, UITableViewDataSource{
         tableView.dataSource = self
         tableView.separatorStyle = .none
         tableView.register(SpotsCell.self, forCellReuseIdentifier: "spotsCell")
+        //Pin underneath the mapView(0.4) and have a height(0.6) of 60% of the screen
         tableView.frame = CGRect(x: 0, y: view.bounds.height * 0.4, width: view.bounds.width, height: view.bounds.height * 0.6)
     }
     

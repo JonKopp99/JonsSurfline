@@ -57,8 +57,7 @@ class SpotDetialView: UIView
     }()
     
     //MARK: Layout
-    func layout()
-    {
+    func layout() {
         backgroundColor = .white
         backImage.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height)
         addSubview(backImage)
@@ -73,9 +72,8 @@ class SpotDetialView: UIView
         
         spotDescription.frame = CGRect(x: 5, y: spotLabel.frame.maxY + 5, width: bounds.width - 10, height: bounds.height - (spotLabel.frame.maxY + 10))
         
-        if let swell = swellData
-        {
-        spotDescription.text = "Condition: \(swell.shapeFull)\nSurf Height: \(swell.size)\nWind: \(swell.shapeDetail.wind)\nTide: \(swell.shapeDetail.tide)"
+        if let swell = swellData {
+            spotDescription.text = "Condition: \(swell.shapeFull)\nSurf Height: \(swell.size)\nWind: \(swell.shapeDetail.wind)\nTide: \(swell.shapeDetail.tide)"
         }
         addSubview(spotDescription)
         
@@ -84,8 +82,7 @@ class SpotDetialView: UIView
         self.addGestureRecognizer(swipeDown)
     }
     
-    @objc func closeButtonPressed()
-    {
+    @objc func closeButtonPressed() {
         UIView.animate(withDuration: 0.5, animations: {
             self.frame = CGRect(x: 0, y: 1000, width: self.bounds.width, height: self.bounds.height)
         }, completion: { (finished: Bool) in
