@@ -1,5 +1,5 @@
-# Jon's Surfline 
-Displays the current surf forecasts from different counties spread all across California🏄🏼‍♂️
+# Jon's Surfline🏄 
+**Displays the current surf forecasts from over 300 locations spread all across California.**
 
 Get information about:
 
