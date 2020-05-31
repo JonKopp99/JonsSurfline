@@ -9,13 +9,12 @@ Get information about:
  4. Wind condition🌬
  5. Tide🌊
 ## Screencasts📷
-![](https://lh3.googleusercontent.com/bkC_kYEmrl_ODLLdoQ05E9yGEqH3_FqJpND1odFofWX1G5pAzQhAO33uYdnarJ6OGRax7yq4E8h_)  ![](https://lh3.googleusercontent.com/_PGmjYtD17ULoF4XOj4l8MyQ6OBarivORsPgwv2fkYn15gQDOsj111Xs8OzGwz0Ao95x-vqwBD5N) 
+![](https://photos.app.goo.gl/MwcXkJvApxWWJMfW7) 
 ## Requirements⚠️
  1. xCode.
- 2. Swift5.
- 3. iOS 12.2.
+ 2. Swift.
+ 3. iOS 13.
  4. Internet.
- ## API💎
- This project uses the [SpitCast API](http://www.spitcast.com/api/docs/)!
+
  
  
